@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour
 
         if(!m_BuyShield)
         {
-            m_BuyShield = Input.GetButtonDown("Fire1"); 
+            m_BuyShield = Input.GetButtonDown("Fire2"); 
         }
 
         float vertical = Input.GetAxis("Vertical");
